@@ -1,0 +1,16 @@
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    /* columnas que se repitan, el auto fill es para que se generen columnas de manera automatica y 230px es el ancho de cada una */
+    gap: 40px; /* Defino la separacion de los elementos*/
+    padding: 40px; /* separacion entre los elementos y el borde de la pagina */
+    justify-content: center; /* Para centrar el contenido*/
+
+}
+
+@media (max-width: 560px) {
+    .moviesGrid {
+        grid-template-columns: 100%; /* En ves de tener varias columnas de un tama;o especifico, voy a tener una sola con 100% de ancho*/
+        
+    }
+}

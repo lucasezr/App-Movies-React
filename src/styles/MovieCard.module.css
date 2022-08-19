@@ -1,0 +1,19 @@
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.movieImage{
+    border-radius: 10px;
+    background-color: azure; /*Este background es para que mientras carga unos milisegundos en traer la imagen de la api, tenga un color de fondo*/
+
+}
+
+@media (max-width: 560px) {
+    .moviesGrid {
+        width: 90%; /* para que en vez de tener 230px de ancho tenga el 90%, es decir que ocupe casi todo*/
+        height: auto;
+    }
+}
